@@ -4,7 +4,7 @@ def bark
 end
 
 def name= (thisname)
- @name =   thisname
+ @name =  thisname
 end
 
 def name
