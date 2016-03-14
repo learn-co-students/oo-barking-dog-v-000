@@ -1,16 +1,16 @@
 # Your code goes here!
 
-class Dog
+class Dog #define class
 
-  def name=(name)
+  def name=(name) #setter
     @name = name
   end
 
-  def name
+  def name #getter
     @name
   end
 
-  def bark
+  def bark #plain ol' method
     puts "woof!"
   end
 end
