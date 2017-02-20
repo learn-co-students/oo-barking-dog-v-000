@@ -1,1 +1,11 @@
-# Your code goes here!
+class Dog# Your codclass Dog
+  def name
+    @name
+  end
+  def name=(name)
+    @name = name
+    end
+  def bark
+    puts "woof!"
+  end
+end
