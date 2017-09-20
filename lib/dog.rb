@@ -1,4 +1,4 @@
-# Your code goes here!
+# Your code goes here! I have add new text Testing messages
 class Dog
 attr_accessor :name, :bark, :tst
 
@@ -22,7 +22,6 @@ attr_accessor :name, :bark, :tst
 
 
 end
-
 
 class Test
 
