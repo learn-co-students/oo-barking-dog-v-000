@@ -1,16 +1,12 @@
+require"pry"
+
 class Dog
 
-  def initialize(name,bark="Woof!")
-    @name=name
-    @bark=bark
+  def initialize
   end
 
   def name=(name)
     @name=name
-  end
-
-  def bark=(bark)
-    @bark=bark
   end
 
   def name
@@ -18,10 +14,6 @@ class Dog
   end
 
   def bark
-    @bark
+     puts "woof!"
   end
-
 end
-def
-fido=Dog.new
-fido.name="Fido"
