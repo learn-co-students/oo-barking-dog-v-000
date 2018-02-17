@@ -6,11 +6,11 @@ class Dog
   end
 end
 
-# attr_accessor simplifys longer version below
-  # def name
-  #     @name
-  #   end
-  #
-  #   def name=(dog_name)
+# attr_accessor simplifies longer version below:
+  #   def name=(dog_name)       #to set
   #     @name = dog_name
   #   end
+  #
+  #   def name      #to get
+  #     @name
+  #   end   
