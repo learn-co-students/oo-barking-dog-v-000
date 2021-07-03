@@ -19,3 +19,4 @@ describe "Dog" do
     fido.bark
   end
 end
+
